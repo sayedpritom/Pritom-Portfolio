@@ -1,0 +1,22 @@
+.email-form input, .email-form textarea {
+    background-color: #111827;
+    padding: 10px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    margin: 10px;
+    color: white;
+}
+
+.emailSendButton {
+    background-image: linear-gradient(to right top, #de4313,  #fec163);
+    padding: 10px 60px;
+    height: 50px;
+    width: 130px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.emailSendButton:hover {
+    background-image: linear-gradient(to right top, #c23409,  #ffac30);
+}
