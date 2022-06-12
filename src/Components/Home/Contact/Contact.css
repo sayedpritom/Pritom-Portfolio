@@ -7,7 +7,7 @@
 }
 
 .emailSendButton {
-    background-image: linear-gradient(to right top, #de4313,  #fec163);
+    background-image: linear-gradient(to right top, #4b43d6, #a57bff);
     padding: 10px 60px;
     height: 50px;
     width: 130px;
@@ -18,5 +18,5 @@
 }
 
 .emailSendButton:hover {
-    background-image: linear-gradient(to right top, #c23409,  #ffac30);
+    background-image: linear-gradient(to right top, #342dbb, #925fff);
 }

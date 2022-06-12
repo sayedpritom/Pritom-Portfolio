@@ -22,8 +22,8 @@ const Contact = () => {
             <div className="py-1 mt-5">
                 <div className="my-5 max-w-7xl mx-auto">
                     <div className="relative flex items-center justify-center mt-10  mb-20">
-                        <h1 className='about-outline uppercase text-9xl text-gray-900 font-extra-bold'>Contact</h1>
-                        <h2 className='absolute uppercase font-bold text-4xl text-white uppercase'>Get In Touch</h2>
+                        <h1 className='about-outline uppercase text-7xl lg:text-9xl text-gray-900 font-extra-bold'>Contact</h1>
+                        <h2 className='absolute uppercase font-bold text-3xl lg:text-4xl text-white uppercase'>Get In Touch</h2>
                     </div>
                     {/* Email Form */}
                     <div className="mx-10 mb-20">
