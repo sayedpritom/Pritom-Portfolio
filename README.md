@@ -1,8 +1,16 @@
-## Live Website https://pritom-portfolio.web.app/
+This is my current personal portfolio website.
 
-This is my current portfolio project. There are 4 main sections on the home page now:
-Header, About Me, Gallary(Projects), Blogs, Contact Me.
+Live Site: https://pritom-portfolio.web.app/
 
-Also, there is a route for project details which opens when clicked on view details of the listed projects. 
 
-Technologies: Html, CSS, Tailwind CSS, React, React Router, and EmailJS
+There are 4 main sections on the home page. Header, About Me, Gallary(Projects), Blogs, and Contact Me.
+Also, there is a route for project details which opens when clicked on view details of the listed projects.
+
+
+Used Technologies: 
+-  Html
+-  CSS
+-  Tailwind CSS
+-  React
+-  React Router
+-  and EmailJS
