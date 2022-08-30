@@ -15,7 +15,7 @@ const Details = () => {
 
     return (
         <>
-            <div class="bg-base-100 ">
+            <div class="bg-white ">
                 <div className="navbar max-w-7xl mx-auto">
                     <div class="flex-1">
                         <Link to="/" class="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></Link>
@@ -31,7 +31,7 @@ const Details = () => {
             </div>
             <div className="details">
                 <div className="mx-10 py-20">
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
+                    <div data-aos="zoom-in" class="card lg:card-side bg-base-100 shadow-xl">
                         <div className="m-5">
                             <div class="rounded-lg carousel w-full">
                                 <div id="slide1" class="carousel-item relative w-full sliders">
@@ -67,20 +67,20 @@ const Details = () => {
                                 }
                             </div>
                         </div>
-                        <div class="card-body text-center lg:mx-20">
+                        <div class="card-body m-5 p-0">
                             <h2 className="text-3xl font-medium uppercase my-2 text-primary font-bold">{name}</h2>
                             <p className="text-xl font-medium my-2">{title}</p>
                             <p className="text-gray-600 leading-8 my-2">{description}</p>
 
-                            <div>
-                            <a target="_blank" href={site}><button class="btn btn-sm btn-outline btn-primary normal-case text-sm w-full lg:w-1/2 mx-auto h-10 mb-1 flex items-center">Live Website</button></a> <br />
+                            <div className="flex">
+                                 <a target="_blank" href={site}><button class="btn btn-sm btn-outline btn-primary normal-case text-sm w-auto mr-5 h-10 mb-1">Live</button></a> <br />
                                 {server ?
                                     <>
-                                        <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm w-full lg:w-1/2 mx-auto h-10 mb-1 flex items-center">Github Client Side</button></a> <br />
-                                        <a target="_blank" href={server && server}><button class="btn btn-sm btn-outline normal-case text-sm w-full lg:w-1/2 mx-auto h-10 mb-1 flex items-center">Github Server Side</button></a> <br />
+                                        <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm w-auto mr-5 h-10 mb-1">Client Repo</button></a> <br />
+                                        <a target="_blank" href={server && server}><button class="btn btn-sm btn-outline normal-case text-sm w-auto mr-5 h-10 mb-1">Server Repo</button></a> <br />
                                     </>
                                     :
-                                    <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm w-full lg:w-1/2 mx-auto h-10 mb-1 flex items-center">Github Website Code</button></a>
+                                    <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm w-auto mr-5 h-10 mb-1">Repository</button></a>
                                 }
                             </div>
 

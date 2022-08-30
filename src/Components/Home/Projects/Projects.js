@@ -15,13 +15,12 @@ const Projects = () => {
     }, [])
 
     return (
-        <div id="projects" className="bg-lightGray py-1 my-5">
+        <div id="projects" className="bg-lightGray py-1 py-5">
             <div className="my-5 max-w-7xl mx-auto">
-                <div className="relative flex items-center justify-center mt-10  mb-20">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className="relative flex items-center justify-center mt-10  mb-20">
                     <h1 className='about-outline uppercase text-7xl lg:text-9xl text-lightGray font-extra-bold'>Gallery</h1>
                     <h2 className='absolute uppercase font-bold text-3xl lg:text-4xl text-primary uppercase'>My Projects</h2>
                 </div>
-                {/* Project 1 */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-10 mb-20">
                     {
                         projects.map(project => <Project key={project.id} project={project}></Project>)

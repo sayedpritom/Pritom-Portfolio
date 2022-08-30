@@ -9,9 +9,13 @@
     padding-top: 100px;
 }
 
-.my-name {
-    font-family: HolidayFree;
+@font-face {
+    font-family: 'HolidayFree';
     src: url(../../../assets/fonts/HolidayFree.otf);
+}
+
+.my-name {
+    font-family: "HolidayFree";
     font-size: 50px;
 }
 
@@ -19,4 +23,25 @@
     height: 5px;
     width: 60px;
     background-color: orange;
+}
+
+.social-icons {
+    position: absolute;
+    right: 50px;
+}
+
+.social-icons > li > a > img {
+    width: 20px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.x-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social-icons > li > a > img:hover {
+    
 }

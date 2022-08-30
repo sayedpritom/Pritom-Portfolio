@@ -1,28 +1,32 @@
 .details {
-    background: rgb(69, 6, 203);
-    background: linear-gradient(45deg, rgba(69, 6, 203, 1) 0%, rgba(165, 126, 245, 1) 100%);
-    min-height: 100vh;
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding-top: 40px;
+  background: rgb(69, 6, 203);
+  background: linear-gradient(45deg, rgba(69, 6, 203, 1) 0%, rgba(165, 126, 245, 1) 100%);
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding-top: 40px;
+  color: rgb(27, 27, 27);
+}
 
+.details .card {
+  background: white;
 }
 
 @media only screen and (min-width: 1024px) {
-    .carousel {
-        width: 500px;
-    }
+  .carousel {
+      width: 500px;
   }
+}
 
-  @media only screen and (min-width: 1280px) {
-    .carousel {
-        width: 700px;
-    }
+@media only screen and (min-width: 1280px) {
+  .carousel {
+      width: 700px;
   }
+}
 
 @media only screen and (min-width: 1800px) {
-    .carousel {
-        width: 900px;
-    }
+  .carousel {
+      width: 900px;
   }
+}

@@ -8,7 +8,7 @@ import Projects from './Projects/Projects';
 
 const Home = () => {
     return (
-        <div>
+        <section>
             <Navbar></Navbar>
             <Banner></Banner>
             <div className="max-w-7xl mx-auto">
@@ -17,7 +17,7 @@ const Home = () => {
             <Projects></Projects>
             <Blogs></Blogs>
             <Contact></Contact>
-        </div>
+        </section>
     );
 };
 

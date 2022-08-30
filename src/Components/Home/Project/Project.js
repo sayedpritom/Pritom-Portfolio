@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Project = (props) => {
     const { name, image, title, site, client, server, id } = props.project;
     return (
-        <div class="card w-full bg-base-100 shadow-xl text-left">
+        <div data-aos="flip-right" data-aos-duration="1000" class="card w-full bg-white shadow-xl text-left">
             <figure className="projectImageContainer" ></figure>
             <div className="relative">
                 <div className="screen">
@@ -17,14 +17,14 @@ const Project = (props) => {
                 </h2>
                 <p className="text-gray-600 my-3">{title}</p>
                 <div class="card-actions">
-                <a target="_blank" href={site}><button class="btn btn-sm btn-outline btn-primary normal-case text-sm ">Live Website</button></a>
+                <a target="_blank" href={site}><button class="btn btn-sm btn-outline btn-primary normal-case text-sm ">Live</button></a>
                     {server ?
                         <>
-                            <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm ">Github Client Side</button></a>
-                            <a target="_blank" href={server && server}><button class="btn btn-sm btn-outline normal-case text-sm ">Github Server Side</button></a>
+                            <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm ">Client Repo</button></a>
+                            <a target="_blank" href={server && server}><button class="btn btn-sm btn-outline normal-case text-sm ">Server Repo</button></a>
                         </>
                         :
-                        <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm ">Github Website Code</button></a>
+                        <a target="_blank" href={client}><button class="btn btn-sm btn-outline normal-case text-sm ">Repository</button></a>
                     }
                 </div>
                 <hr className="my-2" />
