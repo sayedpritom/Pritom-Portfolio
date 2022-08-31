@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Details from './Components/Details/Details';
 
 function App() {
+
   return (
     <div className="App">
       <Routes>
