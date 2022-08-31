@@ -21,6 +21,7 @@
     font-weight: bold;
     display: block;
     margin: 20px auto !important;
+    cursor: pointer;    
 }
 
 .emailSendButton:hover {
