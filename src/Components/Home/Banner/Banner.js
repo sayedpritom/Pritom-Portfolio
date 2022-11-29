@@ -42,7 +42,7 @@ const Banner = () => {
                     <ul data-aos="fade-left" className="social-icons">
                         <li><a target="_blank" href="https://twitter.com/sayed_pritom"><img src={twitter} alt="" /></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/sayed-pritom/"><img src={linkedIn} alt="" /></a></li>
-                        <li><a target="_blank" href="https://github.com/sayedpritom999"><img src={github} alt="" /></a></li>
+                        <li><a target="_blank" href="https://github.com/sayedpritom"><img src={github} alt="" /></a></li>
                     </ul>
                 </div>
             </div>
